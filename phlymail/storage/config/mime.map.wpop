@@ -1,0 +1,284 @@
+# --------------------------------------------------------------------------- #
+# This is the Extension to MIME type mapping file for PHlyMail LE 2.0.0+      #
+# Please refer to the appropriate documentation for details.                  #
+# You don't need to edit it by hand - use the setup tool instead and check    #
+# http://phlymail.com frequently for updates to this file                     #
+# --------------------------------------------------------------------------- #
+# extension;;MIME type;;encoding;;description
+
+10b;;audio/dsym;;b;;Digital Symphony
+1wp;;application/firstword;;b;;1st Word
+201;;application/cai;;b;;CAI
+7z;;application/x-7z-compressed;;b;;7-Zip
+ace;;application/ace;;b;;ACE
+adg;;image/degas;;b;;Degas Image
+ae9;;application/riscos-alarm;;b;;RISC OS Alarm
+aff;;application/drawfile;;b;;Drawfile (acorn)
+aif;;audio/aiff;;b;;AIFF
+aifc;;audio/aiff;;b;;AIFF
+aiff;;audio/aiff;;b;;AIFF
+alm;;application/riscos-alarm;;b;;RISC OS Alarm
+amp;;audio/mpeg;;b;;Audio MPEG (MP3)
+app;;application/riscos-executable;;b;;RISC OS Executable
+arj;;application/arj;;b;;ARJ
+arp;;video/acorn-replay;;b;;Acorn Replay
+asf;;video/msvideo;;b;;Microsoft Video
+asm;;application/assembler;;b;;Assembler
+ass;;application/assembler;;b;;Assembler
+au;;audio/basic;;b;;Audio (Raw)
+avi;;video/avi;;b;;AVI
+awk;;application/artworks;;b;;Artworks
+bc5;;application/impression;;b;;Impression
+bik;;video/bink;;b;;Bink
+bio;;application/flashrom;;b;;Flash ROM
+bios;;application/flashrom;;b;;Flash ROM
+bkm;;application/bookmark;;q;;Bookmark
+bmp;;image/x-ms-bmp;;b;;Microsoft Bitmap
+bz2;;application/bzip2;;b;;BZip2 Archive
+bz2;;application/x-bzip;;b;;BZip2 Archive
+bz2;;application/x-bz2;;b;;BZip2 Archive
+c;;application/c;;q;;C
+cad;;application/cad;;b;;CAD
+cai;;application/cai;;b;;CAI
+cc;;application/c;;q;;C
+cds;;application/cad;;b;;CAD
+cer;;application/x-x509-ca-cert;;b;;X509 Cert
+cf;;application/perl;;q;;Perl
+cgf;;application/cg;;b;;CG
+cgi;;application/perl;;q;;Perl
+cgm;;application/cg;;b;;CG
+cha;;application/x-chat;;b;;X-Chat
+chat;;application/x-chat;;b;;X-Chat
+class;;application/java-vm;;b;;Java VM
+clr;;image/clear;;b;;Clear Image
+clx;;image/colorix;;b;;Colorix Image
+crl;;application/corel;;b;;Corel
+crp;;application/pgp;;b;;PGP
+crt;;application/x-x509-ca-cert;;b;;X509 Cert
+crx;;application/corel;;b;;Corel
+crypted;;application/pgp;;b;;PGP
+css;;text/css;;b;;Cascading Style Sheet
+csv;;application/csv;;b;;CSV
+csv;;text/csv;;b;;CSV
+d94;;application/artworks;;b;;Artworks
+dcr;;application/x-director;;b;;Director
+ddc;;application/zip;;b;;Zip
+deg;;image/degas;;b;;Degas Image
+delta;;video/delta;;b;;Delta Video
+der;;application/x-x509-ca-cert;;b;;X509 Cert
+dev;;application/device;;b;;Device
+dir;;application/x-director;;b;;Director
+dlt;;video/delta;;b;;Delta Video
+dmp;;application/printout;;b;;Printout
+doc;;application/msword;;b;;Microsoft Word
+docx;;application/msword;;b;;Microsoft Word
+draw;;application/drawfile;;b;;Drawfile (Acorn)
+drw;;application/drawfile;;b;;Drawfile (Acorn)
+dsc;;application/fatimage;;b;;FAT Image (Windows)
+dsm;;audio/dsym;;b;;Digital Symphony
+dsym;;audio/dsym;;b;;Digital Symphony
+dvi;;application/x-dvi;;b;;DVI
+dxf;;application/dxf;;b;;DXF
+dxr;;application/x-director;;b;;Director
+eps;;application/postscript;;b;;PostScript
+exe;;application/executable;;b;;Executable (Windows)
+ex;;application/executable;;b;;Executable (Windows)
+ex_;;application/executable;;b;;Executable (Windows)
+fat;;application/fatimage;;b;;FAT Image (Windows)
+fav;;application/bookmark;;b;;Bookmark
+ff8;;application/riscos-executable;;b;;RISC OS Executable
+ff9;;image/spritefile;;b;;RISC OS Sprite
+fff;;text/plain;;q;;Text
+flc;;video/fli;;b;;FLI Video
+fli;;video/fli;;b;;FLI Video
+flr;;application/flashrom;;b;;Flash ROM
+flv;;video/x-flv;;b;;Flash Video
+ft;;audio/fasttracker;;b;;FastTracker
+gif;;image/gif;;b;;GIF
+gif89a;;image/gif;;b;;GIF
+giff;;image/gif;;b;;GIF
+gz;;application/gzip;;b;;GZip Archive
+gz;;application/x-gzip;;b;;GZip Archive
+gzip;;application/gzip;;b;;GZip Archive
+h;;application/c;;b;;C
+hol;;text/x-ms-holiday;;q;;Holidays
+hpg;;application/hpgl;;b;;HPGL
+hpgl;;application/hpgl;;b;;HPGL
+hpl;;application/hpgl;;b;;HPGL
+htl;;text/html;;q;;HTML
+htm;;text/html;;q;;HTML
+html;;text/html;;q;;HTML
+ical;;text/calendar;;q;;iCalendar
+ical;;text/icalendar;;q;;iCalendar
+ico;;image/ico;;b;;Microsoft Icon
+ics;;text/calendar;;q;;iCalendar
+ics;;text/icalendar;;q;;iCalendar
+iff;;image/iff;;b;;IFF Image
+ilbm;;image/ilbm;;b;;ILBM Image
+img;;image/atari;;b;;Atari Image
+imp;;application/impression;;b;;Impression
+ini;;text/x-ini-file;;q;;INI File
+iso-html;;text/html;;q;;HTML
+it;;audio/impulsetrack;;b;;ImpulseTracker
+jfif;;image/jpeg;;b;;JPEG
+jpe;;image/jpeg;;b;;JPEG
+jpeg;;image/jpeg;;b;;JPEG
+jpg;;image/jpeg;;b;;JPEG
+jps;;image/photoshop;;b;;PhotoShop
+js;;text/javascript;;q;;JavaScript
+jscript;;text/javascript;;q;;JavaScript
+jvm;;application/java-vm;;b;;Java VM
+lbm;;image/ilbm;;b;;ILBM Image
+lha;;application/lha;;b;;LHA
+lharc;;application/lha;;b;;LHA
+ltx;;application/x-latex;;b;;Latex
+lzh;;application/lzh;;b;;LZH
+mac;;image/macpaint;;b;;MacPaint
+eml;;message/rfc822;;q;;Email
+eml;;message/delivery-status;;q;;Delivery Status
+mbox;;message/rfc822;;q;;Mailbox
+mcp;;image/macpaint;;b;;MacPaint
+mid;;audio/midi;;b;;MIDI
+midi;;audio/midi;;b;;MIDI
+mod;;audio/mod;;b;;MOD
+mov;;video/quicktime;;b;;Quicktime Video
+mp2;;audio/mpeg;;b;;MPEG 2 Audio
+mp3;;audio/mpeg;;b;;MPEG Audio (MP3)
+mp4;;video/mp4;;b;;MPEG 4 Video
+mp4;;audio/mp4;;b;;MPEG 4 Audio
+mp4;;application/mp4;;b;;MPEG 4
+mpa;;audio/mpeg;;b;;MPEG Audio (MP3)
+mpeg;;video/mpeg;;b;;MPEG Video
+mpg;;video/mpeg;;b;;MPEG Video
+mpv;;video/mpeg;;b;;MPEG Video
+mtm;;audio/mod;;b;;MOD
+mtv;;image/mtv;;b;;MTV Image
+ncd;;application/nc-download;;b;;NC Download
+nsc;;application/x-nschat;;b;;NSChat
+ocx;;application/device;;b;;Device
+odp;;application/vnd.oasis.opendocument.presentation;;b;;Open Document Presentation
+ods;;application/vnd.oasis.opendocument.spreadsheet;;b;;Open Document Spreadsheet
+odt;;application/vnd.oasis.opendocument.text;;b;;Open Document Text
+ogg;;audio/x-ogg;;b;;Ogg Vorbis
+ogg;;application/x-ogg;;b;;Ogg Vorbis
+oxs;;application/device;;b;;Device
+pac;;application/x-ns-proxy-autoconfig;;b;;Netscape Proxy Autoconfig
+pbm;;image/pbm;;b;;PBM Image
+pcd;;image/photo-cd;;b;;PhotoCD
+pcx;;image/pcx;;b;;PCX Image
+pcx;;image/x-pcx;;b;;PCX Image
+pdf;;application/pdf;;b;;PDF
+perl;;application/perl;;q;;Perl
+pgp;;application/pgp;;q;;PGP
+php;;application/php;;q;;PHP
+php3;;application/php;;q;;PHP 3
+php4;;application/php;;q;;PHP 4
+php5;;application/php;;q;;PHP 5
+phtml;;application/php;;q;;PHP
+pic;;image/psion;;b;;Psion Image
+pjp;;image/pjpeg;;b;;Progressive JPEG
+pjpeg;;image/pjpeg;;b;;Progressive JPEG
+pjpg;;image/pjpeg;;b;;Progressive JPEG
+pl;;application/perl;;q;;Perl
+pls;;audio/x-scpls;;q;;Playlist
+pm;;application/perl;;q;;Perl Module
+png;;image/png;;b;;PNG Image
+pps;;application/mspowerpoint;;b;;Microsoft PowerPoint
+ppsx;;application/mspowerpoint;;b;;Microsoft PowerPoint
+ppt;;application/mspowerpoint;;b;;Microsoft PowerPoint
+ppz;;application/mspowerpoint;;b;;Microsoft PowerPoint
+pot;;application/mspowerpoint;;b;;Microsoft PowerPoint
+pout;;application/printout;;b;;Printout
+pro;;application/printout;;b;;Printout
+ps;;application/postscript;;b;;PostScript
+psf;;image/photoshop;;b;;PhotoShop
+psid;;audio/sid;;b;;SID
+ptm;;audio/mod;;b;;MOD
+qrt;;image/qrt;;b;;QuickRayTracer Image
+ra;;audio/x-pn-realaudio;;b;;Real Audio
+ram;;audio/x-pn-realaudio;;b;;Real Audio
+rar;;application/rar;;b;;RAR
+ras;;image/sunraster;;b;;Sun Raster Image
+raster;;image/sunraster;;b;;Sun Raster Image
+rep;;video/acorn-replay;;b;;Acorn Replay
+replay;;video/acorn-replay;;b;;Acorn Replay
+rm;;application/vndrn-realmedia;;b;;Real Media
+rmi;;audio/midi;;b;;MIDI
+rmv;;application/vndrn-realmedia;;b;;Real Media
+rom;;application/flashrom;;b;;Flash ROM
+rpl;;video/acorn-replay;;b;;Acorn Replay
+rpm;;application/x-rpm;;b;;RedHat Package Manager Package
+rpm;;audio/x-pn-realaudio;;b;;Real Audio
+rtf;;text/richtext;;q;;Rich Text
+rtx;;text/richtext;;q;;Rich Text
+s3m;;audio/s3m;;b;;Screamtracker
+scb;;application/nc-smartcard;;b;;NC SmartCard
+sea;;application/riscos-executable;;b;;RISC OS Executable
+shtml;;text/html;;q;;HTML (SSI)
+sid;;audio/sid;;b;;SID
+smk;;video/smack;;b;;Smack Video
+sml;;text/sml;;q;;SML
+snd;;audio/basic;;b;;Audio (Raw)
+snr;;image/sunraster;;b;;Sun Raster Image
+spk;;application/zip;;b;;Zip
+spr;;image/spritefile;;b;;RISC OS Sprite
+sqh;;application/squash;;b;;RISC OS Squash
+sqz;;application/squash;;b;;RISC OS Squash
+st;;audio/mod;;b;;MOD
+sunpbm;;image/pbm;;b;;PBM Image
+svf;;application/csv;;q;;CSV
+swf;;application/x-shockwave-flash;;b;;Adobe Flash
+tar;;application/x-tar;;b;;Tar
+tcl;;application/x-tcl;;q;;TCL
+tex;;application/x-tex;;b;;Tex
+text;;text/plain;;q;;Text
+tga;;image/targa;;b;;Targa
+tgz;;application/tgz;;b;;Tar GZip
+tif;;image/tiff;;b;;TIFF
+tiff;;image/tiff;;b;;TIFF
+torrent;;application/x-bittorrent;;q;;Torrent
+trk;;audio/mod;;b;;MOD
+txt;;text/plain;;q;;Text
+txt;;text/enriched;;q;;Enriched Text
+ult;;audio/ultratrack;;b;;UltraTracker
+uri;;application/uri;;q;;URI (Bookmark)
+url;;application/bookmark;;q;;Bookmark
+vb;;application/vbasic;;q;;Visual Basic
+vba;;application/vba;;q;;Visual Basic
+vbs;;application/vbscript;;q;;Visual Basic Script
+vcal;;text/calendar;;q;;vCalendar
+vcal;;text/x-vcal;;q;;vCalendar
+vcal;;text/x-vcalendar;;q;;vCalendar
+vcal;;text/vcalendar;;q;;vCalendar
+vcf;;text/vcard;;q;;vCard
+vcf;;text/x-vcard;;q;;vCard
+vcf;;text/v-card;;q;;vCard
+vcs;;text/calendar;;q;;vCalendar
+vcs;;text/icalendar;;q;;vCalendar
+vcs;;text/vcalendar;;q;;vCalendar
+vdd;;application/device;;b;;Device
+vrl;;model/vrml;;b;;VRML
+vrm;;model/vrml;;b;;VRML
+vrml;;model/vrml;;b;;VRML
+vxd;;application/device;;b;;Device
+wap;;text/wml;;q;;WML
+wav;;audio/wav;;b;;Wave
+wav;;audio/x-wav;;b;;Wave
+wma;;audio/msaudio;;b;;Windows Media Audio (WMA)
+wmf;;application/winmeta;;b;;Windows Meta
+wml;;text/wml;;q;;WML
+wmv;;video/x-ms-wmv;;b;;Windows Media Video (WMV)
+wpd;;application/firstword;;b;;1st Word
+wpg;;image/wordperfect;;b;;WordPerfect Image
+wrl;;model/vrml;;b;;VRML
+xbm;;image/xbm;;b;;X-Bitmap
+xbm;;image/x-xbitmap;;b;;X-Bitmap
+xhtml;;text/xml;;q;;HTML (XML)
+xls;;application/msexcel;;b;;Microsoft Excel
+xlsx;;application/msexcel;;b;;Microsoft Excel
+xm;;audio/fasttracker;;b;;FastTracker
+xml;;text/xml;;b;;XML
+xpm;;image/x-xpixmap;;b;;Pixmap Image
+z;;application/x-compress;;b;;Compress
+zip;;application/zip;;b;;Zip
+zip;;application/x-zip-compressed;;b;;Zip

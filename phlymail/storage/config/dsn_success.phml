@@ -1,0 +1,36 @@
+Return-Path: <{from}>
+Message-ID: <{msgid}>
+From: {from}
+To: {to}
+References: {orig_msgid}
+Subject: Read: {orig_subject}
+Date: {date}
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=disposition-notification; boundary="{boundary}"
+X-Mailer: {mailer}
+
+This is a multi-part message in MIME format.
+
+--{boundary}
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+This is a message delivery notification for your email sent to
+{from} on {orig_date}.
+
+This delivery notification indicates, that your message has been displayed
+on the recipients screen.
+
+It, however, does not acknowledge, that it has benn read and understood.
+
+--{boundary}
+Content-Type: message/disposition-notification
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Final-Recipient: rfc822;{from}
+Original-Message-ID: {orig_msgid}<!-- START manual -->
+Disposition: manual-action/MDN-sent-manually; displayed<!-- END manual --><!-- START automatic -->
+Disposition: automatic-action/MDN-sent-automatically; displayed<!-- END automatic -->
+
+--{boundary}--

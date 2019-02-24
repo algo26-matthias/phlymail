@@ -1,0 +1,1 @@
+$provider$ - Neue Email eingetroffen. Filter: $filter$, Von: $from$, An: $to$, Betreff: $subject$

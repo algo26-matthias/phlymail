@@ -1,0 +1,5 @@
+host;;text;;32;;;;1
+user;;text;;24;;;;1
+pass;;password;;16;;;;1
+database;;text;;24;;;;1
+prefix;;text;;24;;phlymail;;1

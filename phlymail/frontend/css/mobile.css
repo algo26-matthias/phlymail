@@ -1,0 +1,565 @@
+/* clearfix stuff borrowed from jQuery UI */
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+
+* {
+    -moz-box-sizing:border-box;
+}
+
+div.table {
+    display:table;
+}
+div.tr {
+    display:table-row;
+}
+div.td {
+    display:table-cell;
+    padding:0.15em;
+}
+/*
+.ui-listview .ui-li-icon, /  *  right now using the generic approach, all our lists have 32x32 icons  *  /
+    .ui-listview.x32 .ui-li-icon {
+    left:0.25em;
+    top:0.25em;
+    max-width:32px;
+    max-height:32px;
+} */
+.ui-li-divider .ui-li-icon {
+    position:static;
+}
+.ui-li-has-icon .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-icon {
+    padding-left:48px;
+}
+.ui-li-heading, .ui-li-desc {
+    margin:0;
+}
+
+.l {text-align:left;}
+.r {text-align:right;}
+.t {vertical-align:top;}
+.b {vertical-align:bottom;}
+.c {text-align:center;vertical-align:middle;}
+.nowrap {white-space:nowrap;}
+
+.fldlvl_1 .ui-btn-text {
+    margin-left:16px;
+}
+.fldlvl_2 .ui-btn-text {
+    margin-left:32px;
+}
+.fldlvl_3 .ui-btn-text {
+    margin-left:48px;
+}
+.fldlvl_4 .ui-btn-text {
+    margin-left:64px;
+}
+.fldlvl_5 .ui-btn-text {
+    margin-left:80px;
+}
+.fldlvl_6 .ui-btn-text {
+    margin-left:96px;
+}
+.fldlvl_7 .ui-btn-text {
+    margin-left:112px;
+}
+.fldlvl_8 .ui-btn-text {
+    margin-left:128px;
+}
+.fldlvl_9 .ui-btn-text {
+    margin-left:144px;
+}
+.fldlvl_10 .ui-btn-text {
+    margin-left:160px;
+}
+
+#auth_logo {
+    display:block;
+    max-width:75%;
+    margin:8px auto 16px;
+}
+.ui-header table td {
+    font-weight:normal;
+}
+
+.contactsheet-headline {
+    min-height:64px;
+    padding-bottom:8px;
+}
+
+.contactphoto-placeholder-medium {
+    float:left;
+    width:64px;
+    height:64px;
+    margin:0 8px 8px 0;
+    background:transparent url(../img/contactphoto-medium.png) center center no-repeat;
+}
+.contactphoto-placeholder-medium > img {
+    display:block;
+    width:64px;
+    height:64px;
+    margin:0;
+    padding:0;
+}
+.h3-icon {
+    width:24px;
+    height:24px;
+    float:left;
+    display:block;
+    margin:0 8px 0 0;
+}
+.h1-icon {
+    width:32px;
+    height:32px;
+    float:left;
+    display:block;
+    margin:6px 8px 0 0;
+}
+.ui-li-aside {
+    width:auto;
+}
+.ui-li-heading > img {
+    display:block;
+    float:left;
+    margin: 0 4px 0 0;
+}
+
+#page_email_read #kopfzeilen_kompakt {
+    display:block;
+}
+#page_email_read #kopfzeilen {
+    display:none;
+}
+#page_email_read #kopfzeilen_kompakt .table {
+    max-width:100%;
+}
+#page_email_read #kopfzeilen_kompakt .td:nth-child(2) {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#page_email_compose .ui-li-has-count .ui-li-count {
+    right:0;
+    top:-16px;
+}
+
+body.ui-iconset-black .ui-icon, body.ui-iconset-black .ui-icon-searchfield:after {
+    background-image:url(../img/mobile-icons-18-black.png);
+}
+
+body.ui-iconset-black .ui-icon-goto-desktop, body.ui-iconset-black .ui-icon-dustbin
+        ,body.ui-iconset-black .ui-icon-mail-reply, body.ui-iconset-black .ui-icon-mail-replyall
+        ,body.ui-iconset-black .ui-icon-mail-forward, body.ui-iconset-black .ui-icon-mail-reroute
+        ,body.ui-iconset-black .ui-icon-mail-archive, body.ui-iconset-black .ui-icon-send-mail
+        ,body.ui-iconset-black .ui-icon-attachment, body.ui-iconset-black .ui-icon-save
+        ,body.ui-iconset-black .ui-icon-mail-asnew, body.ui-iconset-black .ui-icon-mail-markread
+        ,body.ui-iconset-black .ui-icon-mail-markunread, body.ui-iconset-black .ui-icon-mail-markjunk
+        ,body.ui-iconset-black .ui-icon-mail-marknotjunk, body.ui-iconset-black .ui-icon-mail-colourmark
+        ,body.ui-iconset-black .ui-icon-mail-copyto, body.ui-iconset-black .ui-icon-mail-moveto
+        ,body.ui-iconset-black .ui-icon-newtab {
+    background-image:url(../img/mobile-custom-18-black.png);
+}
+
+body.ui-iconset-white .ui-icon, body.ui-iconset-white .ui-icon-searchfield:after {
+    background-image:url(../img/mobile-icons-18-white.png);
+}
+body.ui-iconset-white .ui-icon-goto-desktop, body.ui-iconset-white .ui-icon-dustbin
+        ,body.ui-iconset-white .ui-icon-mail-reply, body.ui-iconset-white .ui-icon-mail-replyall
+        ,body.ui-iconset-white .ui-icon-mail-forward, body.ui-iconset-white .ui-icon-mail-reroute
+        ,body.ui-iconset-white .ui-icon-mail-archive, body.ui-iconset-white .ui-icon-send-mail
+        ,body.ui-iconset-white .ui-icon-attachment, body.ui-iconset-white .ui-icon-save
+        ,body.ui-iconset-white .ui-icon-mail-asnew, body.ui-iconset-white .ui-icon-mail-markread
+        ,body.ui-iconset-white .ui-icon-mail-markunread, body.ui-iconset-white .ui-icon-mail-markjunk
+        ,body.ui-iconset-white .ui-icon-mail-marknotjunk, body.ui-iconset-white .ui-icon-mail-colourmark
+        ,body.ui-iconset-white .ui-icon-mail-copyto, body.ui-iconset-white .ui-icon-mail-moveto
+        ,body.ui-iconset-white .ui-icon-newtab {
+    background-image:url(../img/mobile-custom-18-white.png);
+}
+.ui-icon-goto-desktop {
+    background-position:0 0!important;
+}
+.ui-icon-dustbin {
+    background-position:-18px 0!important;
+}
+.ui-icon-mail-reply {
+    background-position:-36px 0!important;
+}
+.ui-icon-mail-replyall {
+    background-position:-54px 0!important;
+}
+.ui-icon-mail-forward {
+    background-position:-72px 0!important;
+}
+.ui-icon-mail-reroute {
+    background-position:-90px 0!important;
+}
+.ui-icon-mail-archive {
+    background-position:-108px 0!important;
+}
+.ui-icon-send-mail {
+    background-position:-126px 0!important;
+}
+.ui-icon-attachment {
+    background-position:-144px 0!important;
+}
+.ui-icon-save {
+    background-position:-162px 0!important;
+}
+.ui-icon-mail-asnew {
+    background-position:-180px 0!important;
+}
+.ui-icon-mail-markread {
+    background-position:-198px 0!important;
+}
+.ui-icon-mail-markunread {
+    background-position:-216px 0!important;
+}
+.ui-icon-mail-markjunk {
+    background-position:-234px 0!important;
+}
+.ui-icon-mail-marknotjunk {
+    background-position:-252px 0!important;
+}
+.ui-icon-mail-colourmark {
+    background-position:-270px 0!important;
+}
+.ui-icon-mail-moveto {
+    background-position:-288px 0!important;
+}
+.ui-icon-mail-copyto {
+    background-position:-306px 0!important;
+}
+.ui-icon-newtab {
+    background-position:-324px 0!important;
+}
+
+.ui-icon-custom {
+    width:18px;
+    height:18px;
+    float:left;
+    display:block;
+    margin:2px 8px 0 0;
+}
+
+/* for color defs @see ./colourmark.css */
+.cmark_square, .dot {
+    border:none;
+    float:left;
+    display:block;
+    width:12px;
+    height:12px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    -moz-box-shadow:0 0 2px 0 #808080;
+    -webkit-box-shadow:0 0 2px 0 #808080;
+    box-shadow:0 0 2px 0 #808080;
+    margin:5px 6px 2px 2px;
+
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+}
+
+.rangeslider {
+    position:relative;
+    height:30px;
+    margin-top:60px;
+}
+.rangeslider label {
+    position:absolute;
+    top:-30px;
+    left:10px;
+}
+/* moves label field */
+.rangeslider .rangeslider_min {
+    top: -40px;
+    position:absolute;
+    left:100px;
+}
+/* moves first input field */
+.rangeslider .rangeslider_max {
+    top:-40px;
+    position:absolute;
+    left:170px;
+}
+/* move second input field */
+.rangeslider div.ui-slider {
+    position:absolute;
+}
+/* move both sliders - adressing 1st slider with CSS is hard */
+.rangeslider div:last-child {
+    position:absolute;
+    left:0;
+}
+.rangeslider .ui-slider-input {
+    display:none;
+}
+
+#email_read_icons {
+    float:right;
+    width:24px;
+    margin:2px 2px 2px 8px;
+}
+#email_read_icons img, #email_read_icons span {
+    float:none;
+}
+#calendar_monthview .ui-content, #calendar_dayview .ui-content {
+    padding:0!important;
+}
+#calendar_monthview .ui-content.pad, #calendar_dayview .ui-content.pad {
+    padding:15px!important;
+}
+.monthtable {
+    width:100%;
+}
+.monthtable > table {
+    width:100%;
+    border-spacing: 0;
+    border: 1px solid rgb(80,80,80);
+}
+.monthtable > table thead, .monthtable > table tbody td.cal_cw, .dayhead {
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+}
+.monthtable > table thead th {
+    background:transparent;
+    color:black;
+    text-shadow:0 1px white;
+}
+.monthtable > table thead tr.title th, .dayhead {
+    font-size:1.2em;
+    line-height:2em;
+}
+.dayhead {
+    text-align:center;
+}
+.calendar_skim {
+    color:black !important;
+    display:block;
+    font-size:2em;
+    line-height:0.8em;
+    padding:0 0.4em;
+    text-decoration:none;
+}
+.calendar_skim.prev {
+    float:left;
+}
+
+.calendar_skim.next {
+    float:right;
+}
+tr.daynames th {
+    font-size:0.9em;
+    padding-bottom:0.3em;
+    color:black;
+    text-shadow:0 1px white;
+}
+.monthtable > table tbody td {
+    width:auto;
+    height:3em;
+    text-align:center;
+    border-top: 1px solid rgb(80,80,80);
+    border-left: 1px solid rgb(80,80,80);
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(229,229,229,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(229,229,229,1)));
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(229,229,229,1) 100%);
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(229,229,229,1) 100%);
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(229,229,229,1) 100%);
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(229,229,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#e5e5e5',GradientType=0 );
+}
+.monthtable > table tbody td.cal_cw {
+    width:3em;
+    font-size:0.8em;
+    font-weight:bold;
+}
+
+.monthtable > table tbody td .whole {
+    width:100%;
+    height:100%;
+    position:relative;
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
+.monthtable > table tbody td.current {
+    font-weight:bold;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.7) inset, 1px 0 0 rgba(255,255,255,0.7) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.7) inset, 1px 0 0 rgba(255,255,255,0.7) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.7) inset, 1px 0 0 rgba(255,255,255,0.7) inset;
+    background: rgb(249,249,249);
+    background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(238,238,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(238,238,238,1)));
+    background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%);
+    background: -o-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%);
+    background: -ms-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=0 );
+}
+.monthtable > table tbody td.today {
+    background: lightblue!important;
+}
+.monthtable > table tbody td.weekend {
+    background: rgb(246,238,238);
+    background: -moz-linear-gradient(top, rgba(246,238,238,1) 0%, rgba(237,229,229,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,238,238,1)), color-stop(100%,rgba(237,229,229,1)));
+    background: -webkit-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(237,229,229,1) 100%);
+    background: -o-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(237,229,229,1) 100%);
+    background: -ms-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(237,229,229,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,238,238,1) 0%,rgba(237,229,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6eeee', endColorstr='#ede5e5',GradientType=0 );
+}
+.monthtable > table tbody td.weekend.current {
+    background: rgb(246,238,238);
+    background: -moz-linear-gradient(top, rgba(246,238,238,1) 0%, rgba(219,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,238,238,1)), color-stop(100%,rgba(219,204,204,1)));
+    background: -webkit-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(219,204,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(219,204,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(246,238,238,1) 0%,rgba(219,204,204,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,238,238,1) 0%,rgba(219,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6eeee', endColorstr='#dbcccc',GradientType=0 );
+}
+.monthtable > table tbody td .cal_mnth_date {
+    color:black;
+    font-size:1.3em;
+    line-height:2em;
+}
+
+.monthtable > table tbody td.weekend .cal_mnth_date, .monthtable > table tbody td.holiday .cal_mnth_date {
+    color:darkred;
+}
+
+.cal_mnth_txt_holiday {
+    color:black;
+    z-index:10;
+    max-width:75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position:absolute;
+    top:4px;
+    left:4px;
+    padding:1px 6px;
+    font-size:0.7em;
+    font-weight:normal;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -moz-box-shadow:0 0 2px 0 #808080;
+    -webkit-box-shadow:0 0 2px 0 #808080;
+    box-shadow:0 0 2px 0 #808080;
+    background: rgb(254,252,234);
+    background: -moz-linear-gradient(top, rgba(254,252,234,1) 0%, rgba(239,230,172,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(239,230,172,1)));
+    background: -webkit-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(239,230,172,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(239,230,172,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(239,230,172,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(239,230,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#efe6ac',GradientType=0 );
+}
+.evtsquare_container {
+    display:block;
+    bottom:0;
+    left:0;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    max-width:90%;
+    overflow:hidden;
+    padding:4px;
+}
+.evtsquare_container .cmark_square {
+    width:8px;
+    height:8px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    margin:0 6px 0 0;
+}
+#calendar_monthview img.priority {
+    margin-top:4px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 240dpi) {
+    body.ui-iconset-black .ui-icon, body.ui-iconset-black .ui-icon-searchfield:after {
+        background-image:url(../img/mobile-icons-36-black.png);
+    }
+
+    body.ui-iconset-black .ui-icon-goto-desktop, body.ui-iconset-black .ui-icon-dustbin
+            ,body.ui-iconset-black .ui-icon-mail-reply, body.ui-iconset-black .ui-icon-mail-replyall
+            ,body.ui-iconset-black .ui-icon-mail-forward, body.ui-iconset-black .ui-icon-mail-reroute
+            ,body.ui-iconset-black .ui-icon-mail-archive, body.ui-iconset-black .ui-icon-send-mail
+            ,body.ui-iconset-black .ui-icon-attachment, body.ui-iconset-black .ui-icon-save
+            ,body.ui-iconset-black .ui-icon-mail-asnew, body.ui-iconset-black .ui-icon-mail-markread
+            ,body.ui-iconset-black .ui-icon-mail-markunread, body.ui-iconset-black .ui-icon-mail-markjunk
+            ,body.ui-iconset-black .ui-icon-mail-marknotjunk, body.ui-iconset-black .ui-icon-mail-colourmark
+            ,body.ui-iconset-black .ui-icon-mail-copyto, body.ui-iconset-black .ui-icon-mail-moveto
+            ,body.ui-iconset-black .ui-icon-newtab {
+        background-image:url(../img/mobile-custom-36-black.png);
+        -moz-background-size:342px auto;
+        -o-background-size:342px auto;
+        -webkit-background-size:342px auto;
+        background-size:342px auto;
+    }
+
+    body.ui-iconset-white .ui-icon, body.ui-iconset-white .ui-icon-searchfield:after {
+        background-image:url(../img/mobile-icons-36-white.png);
+    }
+    body.ui-iconset-white .ui-icon-goto-desktop, body.ui-iconset-white .ui-icon-dustbin
+            ,body.ui-iconset-white .ui-icon-mail-reply, body.ui-iconset-white .ui-icon-mail-replyall
+            ,body.ui-iconset-white .ui-icon-mail-forward, body.ui-iconset-white .ui-icon-mail-reroute
+            ,body.ui-iconset-white .ui-icon-mail-archive, body.ui-iconset-white .ui-icon-send-mail
+            ,body.ui-iconset-white .ui-icon-attachment, body.ui-iconset-white .ui-icon-save
+            ,body.ui-iconset-white .ui-icon-mail-asnew, body.ui-iconset-white .ui-icon-mail-markread
+            ,body.ui-iconset-white .ui-icon-mail-markunread, body.ui-iconset-white .ui-icon-mail-markjunk
+            ,body.ui-iconset-white .ui-icon-mail-marknotjunk, body.ui-iconset-white .ui-icon-mail-colourmark
+            ,body.ui-iconset-white .ui-icon-mail-copyto, body.ui-iconset-white .ui-icon-mail-moveto
+            ,body.ui-iconset-white .ui-icon-newtab {
+        background-image:url(../img/mobile-custom-36-white.png);
+        -moz-background-size:342px auto;
+        -o-background-size:342px auto;
+        -webkit-background-size:342px auto;
+        background-size:342px auto;
+    }
+}
+
+@media all and (max-width:800px) {
+    .cal_mnth_txt_holiday {
+        font-size:0px;
+        text-indent:10000000px;
+        color:transparent;
+        text-shadow:none;
+        padding:0;
+        background: rgb(250,239,136);
+        background: -moz-linear-gradient(top, rgba(250,239,136,1) 0%, rgba(228,211,98,1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,239,136,1)), color-stop(100%,rgba(228,211,98,1)));
+        background: -webkit-linear-gradient(top, rgba(250,239,136,1) 0%,rgba(228,211,98,1) 100%);
+        background: -o-linear-gradient(top, rgba(250,239,136,1) 0%,rgba(228,211,98,1) 100%);
+        background: -ms-linear-gradient(top, rgba(250,239,136,1) 0%,rgba(228,211,98,1) 100%);
+        background: linear-gradient(to bottom, rgba(250,239,136,1) 0%,rgba(228,211,98,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faef88', endColorstr='#e4d362',GradientType=0 );
+    }
+    .evtsquare_container .cmark_square, .cal_mnth_txt_holiday {
+        width:6px;
+        height:6px;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        margin-right:4px;
+    }
+}

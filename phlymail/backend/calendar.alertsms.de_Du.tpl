@@ -1,0 +1,1 @@
+{head_reminder}, Titel: {title}, Beginn: {start}<!-- START reminder -->, Erinnerung: {reminder}<!-- END reminder -->
