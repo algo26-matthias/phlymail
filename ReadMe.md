@@ -2,7 +2,7 @@
 
 This repository is an archive snapshot of the latest release of phlyMail Free,
 an open-source Webmail and PIM solution.
-
+Please note, that I cannot provide you with any support, this piece of software is now fairly outdated.
 
 ## Installation guide phlyMail Free
 
